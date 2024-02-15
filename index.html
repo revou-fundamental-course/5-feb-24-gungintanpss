@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Temperature Conversion Calculator
+  </title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Temperature Conversion Calculator</h1>
+    <div class="calculator">
+        
+      <label for="celsius">
+        Celsius (°C):
+      </label>
+      <input type="number" id="celsius" name="celsius">
+
+      <label for="fahrenheit">
+        Fahrenheit (°F):
+      </label>
+      <input type="number" id="fahrenheit" name="fahrenheit">
+
+      <label for="calculation">
+        Calculation:
+      </label>
+      <input type="text" id="calculation" name="calculation">
+
+      <button class="conversion-button" onclick="convertCelsiusToFahrenheit()">
+        Conversion
+      </button>
+
+      <button class="reset-button" onclick="resetValues()">
+        Reset 
+      </button>
+
+      <button class="reverse-button" onclick="reverseConversion()">
+        Reverse
+      </button>
+      
+      <p id="fahrenheit"></p>
+
+    </div>
+
+    <p id="formula">
+      Formula: Temperature S in degrees Fahrenheit (°F) is equal to temperature S in degrees Celsius (°C) times 9/5 plus 32.
+      <br> S(°F) = (S(°C) × 9/5) + 32 <br> or <br> S(°F) = (S(°C) × 1.8) + 32
+    </p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
