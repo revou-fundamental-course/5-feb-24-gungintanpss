@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.calculator {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.calculator label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.calculator input,
+.calculator button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#celsius{
+    width: 280px;
+}
+
+#fahrenheit {
+    font-weight: bold;
+    width: 280px;
+}
+
+#calculation {
+    width: 280px; 
+    height: 70px; 
+    padding: 10px; 
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+
+#formula,
+#info {
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
+
+.calculator button.conversion-button {
+    background-color: rgb(3, 194, 3) ;
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    width: 170px;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.calculator button.reset-button {
+    background-color: rgb(221, 29, 29);
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    width: 170px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.calculator button.reverse-button {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    width: 170px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
